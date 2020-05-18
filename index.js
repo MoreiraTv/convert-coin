@@ -11,17 +11,17 @@ axios.get(`https://economia.awesomeapi.com.br/all/`)
         var MoedasCode = Object.keys(res.data);
         var MoedasRes = Object.values(res.data);
 
-        console.log("DATA:", MoedasRes);
+        //console.log("DATA:", MoedasRes);
 
         var Tarray = Object.keys(MoedasRes).length
 
-        console.log('Quantidade de moedas:', Tarray);
+        //console.log('Quantidade de moedas:', Tarray);
         for (var x = 0; x < Tarray;) {
             var moedasCode = MoedasCode[x];
             var moedasV = MoedasRes[x].bid;
             var moedasName = MoedasRes[x].name;
 
-            console.log(x, ":", "valor do ", moedasName, " Está: ", moedasV);
+            //  console.log(x, ":", "valor do ", moedasName, " Está: ", moedasV);
 
 
             var refNav = document.getElementById('refNav');

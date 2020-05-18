@@ -1,0 +1,12 @@
+{
+  "name": "convert-coin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}

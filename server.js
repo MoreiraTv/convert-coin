@@ -7,5 +7,5 @@ connect().use(serveStatic(__dirname)).listen(process.env.PORT || 8080, function 
     console.log('Servidor lindão rodando!');
 });
 
-js();
 Html();
+js();

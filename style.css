@@ -7,6 +7,10 @@ body {
     background-color: #DDD;
     font-family: 'Arial';
 }
+.title {
+    top: 30px;
+    position: relative;
+}
 
 .nav_tabs {
     width: 750px;

@@ -8,15 +8,24 @@ body {
     font-family: 'Arial';
 }
 .title {
-    top: 30px;
+    top: 50px;
     position: relative;
 }
 
+h1{
+    font-size: 120px;
+}
+
+.logo{
+    width: 250px;
+    height: 150px;
+}
+
 .nav_tabs {
-    width: 750px;
-    height: 270px;
+    width: 70%;
+    height: 65.9%;
     margin: 100px auto;
-    background-color: #fff;
+    background-color: #363b48;
     position: relative;
 }
 
@@ -29,12 +38,13 @@ body {
 }
 
 .nav_tabs label {
-    width: 100px;
-    height: 40px;
-    padding: 25px;
+    width: 300px;
+    height: 98px;
+    padding: 15px;
     background-color: #363b48;
     display: block;
     color: #fff;
+    font-size: 36px;
     cursor: pointer;
     text-align: center;
     position: relative;
@@ -53,10 +63,10 @@ body {
     background-color: #fff;
     display: none;
     position: absolute;
-    height: 200px;
-    width: 750px;
+    height: 40%;
+    width: 100%;
     left: 0;
-    top: 270px;
+    top: 100%;
 }
 
 .rd_tabs:checked ~ .content {
@@ -65,13 +75,30 @@ body {
 
 .content span.Estrangeira{
     position: relative;
-    margin-left: 215px;
-    top: 70px;
+    margin-left: 20%;
+    top: 45%;
 }
 
 .content span.Nacional{
     position: relative;
-    top: 70px;
+    top: 45%;
+}
+
+.content input.nacional {
+    font-weight: 400;
+    color: #909090;
+    font-stretch: 100%;
+    background: transparent;
+    border: 0;
+    font-size: 64px;
+    margin-left: 0.1em;
+    text-align: right;
+    width: 40%;
+    height: 44px;
+    min-width: 0;
+    max-width: none;
+    padding: 10px;
+    text-align-last: justify;
 }
 
 .content input {
@@ -80,10 +107,10 @@ body {
     font-stretch: 100%;
     background: transparent;
     border: 0;
-    font-size: 38px;
+    font-size: 64px;
     margin-left: 0.1em;
     text-align: right;
-    width: 140px;
+    width: 20%;
     height: 44px;
     min-width: 0;
     max-width: none;
@@ -92,5 +119,5 @@ body {
 }
 .symbol {
     color: #d8d8d8;
-    font-size: 38px;
+    font-size: 24px;
 }

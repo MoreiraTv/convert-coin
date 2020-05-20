@@ -55,6 +55,7 @@ axios.get(`https://economia.awesomeapi.com.br/all/`)
             var InputNacional = document.createElement('input');
             InputNacional.type = "text";
             InputNacional.id = "nacional";
+            InputNacional.className = "nacional";
             InputNacional.value = moedasV;
 
             NavPai.appendChild(li);

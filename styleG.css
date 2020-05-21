@@ -106,4 +106,15 @@ h1{
     color: #d8d8d8;
     font-size: 38px;
 }
+
+.conteudo {
+    position: relative;
+    margin: 100px auto;
+    width: 750px auto;
+    height: 250px auto;
+    top: 40%;
+    text-align: left;
+    background-color: #fff;
+}
+
 }

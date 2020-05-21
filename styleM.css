@@ -122,4 +122,15 @@ h1{
     color: #d8d8d8;
     font-size: 38px;
 }
+
+.conteudo {
+    width: 750px;
+    height: 250px auto;
+    text-align: left;
+    background-color: #fff;
+    position: relative;
+    top: 211px;
+    margin: 100px auto;
+}
+
 }

@@ -123,4 +123,16 @@ h1{
     color: #d8d8d8;
     font-size: 38px;
 }
+
+.conteudo {
+    width: 350px;
+    height: 250px auto;
+    text-align: left;
+    background-color: #fff;
+    max-width: 550px;
+    position: relative;
+    top: 360px;
+    margin: 100px auto;
+}
+
 }

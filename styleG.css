@@ -1,3 +1,4 @@
+@media screen and (min-width: 1000px) {
 * {
     margin: 0;
     padding: 0;
@@ -104,4 +105,5 @@ h1{
 .symbol {
     color: #d8d8d8;
     font-size: 38px;
+}
 }

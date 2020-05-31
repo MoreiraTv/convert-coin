@@ -104,7 +104,7 @@ axios.get(`https://economia.awesomeapi.com.br/all/`)
                 9: "<br> <p>Litecoin foi lançada através de um cliente de código aberto em Github no dia 7 de outubro de 2011. Foi uma confluência do cliente Bitcoin-Qt, diferenciando-se apenas por ter um tempo modificado de geração de blocos, um algoritmo de hash diverso, e um GUI ligeiramente alterado. A versão atual deste cliente (a partir de 19 de abril 2013) é a v0.6.3c.</p>",
                 10: "<br> <p>Foram lançados clientes alternativos, incluindo umo oficial Android, bem como um cliente oficial Electrum.</p>",
                 12: "<br> <p>A maior bolsa de Bitcoin, Mt.Gox, anunciou em 25 abril de 2013 que a comercialização de Litecoin foi demorada devido aos ataques dos DDoS no seu sítio web.</p>",
-                13: "<br> <p>De modo recente, Litecoin foi anunciada nas notícias como uma alternativa de Bitcoin.</p>",
+                13: "<br> <p>De modo recente, Litecoin foi anunciada nas notícias como uma alternativa de Bitcoin.</p> <br>",
                 14: "<br>"
             },
             8: {

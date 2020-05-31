@@ -29,6 +29,7 @@ h1{
     margin: 100px auto;
     background-color: #363b48;
     position: relative;
+    align-items: center;
 }
 
 .nav_tabs ul {
@@ -71,8 +72,23 @@ h1{
     top: 100%;
 }
 
+.Conteudo {
+    display: none;
+}
+
 .rd_tabs:checked ~ .content {
     display: inline;
+}
+
+.rd_tabs:checked ~ .Conteudo {
+    background-color: #fff;
+    position: relative;
+    display: block;
+    height: auto;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 150%;
 }
 
 .content span.Estrangeira{

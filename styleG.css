@@ -71,8 +71,24 @@ h1{
     top: 270px;
 }
 
+.Conteudo {
+    display: none;
+}
+
 .rd_tabs:checked ~ .content {
     display: inline;
+}
+
+.rd_tabs:checked ~ .Conteudo {
+    border-top: 5px solid #e54e43;
+    background-color: #fff;
+    position: absolute;
+    display: block;
+    height: auto;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 180%;
 }
 
 .content span.Estrangeira{
